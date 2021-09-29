@@ -11,6 +11,10 @@ body
     margin: 20 auto;
 }
 
+*{
+    text-decoration: none;
+}
+
 /* HEADER */
 
 img{
@@ -34,11 +38,9 @@ nav{
     margin-top: -43px;
 }
 header nav ul li{
-    margin: 20px;
     padding: 20px;
 	display: inline-block;
     font-weight: bold;
-    border-top: 2px solid #0065FC;
 }  
 header nav ul li a{
 
@@ -48,8 +50,23 @@ header nav ul li a{
     text-decoration: none;
 }
 
+a activities{
+    color: #000;
+}
+
+.accomodations{
+    border-top: 2px solid #0065FC;
+    color: #0065FC;
+    padding-top: 18px;
+}
+
+.activities{
+    color: black;
+}
+
 p.subtitle {
     margin-left: 40px;
+    margin-bottom: 5px;
 }
 
 /* NAVBAR */
@@ -101,6 +118,9 @@ accomodations activites a:hover{
 
 .search-type{
     font-weight: bold;
+    outline: none;
+    border-color: #F2F2F2;
+    border-width: thin;
 }
 
 .search{
@@ -115,16 +135,42 @@ accomodations activites a:hover{
     font-weight: bold;
 }
 
+.placeholder{
+    color: #000;
+}
+
+#Marseille, France{
+
+    color: #000;
+}
+
 p{
     font-weight: normal;
     text-decoration: none;
 }
 
-.fa-info-circle{
-    
+.fa-info{
+    text-align : center;
+    padding : 0.01em 0.4em 0.8em 0.4em;
+    border : 0.1em solid #d9d9d9;
+    width  : 0.3em;
+    height : 0.3em;
+    border-radius: 100%;
+    margin-left: -25px;
+  }
+
+  .fa-info:before{
+    font-size: x-small;
     color: #0065FC;
-    margin-right: 10px;
-}
+  }
+
+  .location-{
+      color: #000;
+  }
+
+  .placeholder{
+      border-color: none;
+  }
 
 h2{
     font-size: 20px;
@@ -197,6 +243,7 @@ h1{
 p{
     margin: 20px;
     margin-top: 5px;
+    display: inline-block;
 }
 
 p.accomodations-numbers{
@@ -209,6 +256,7 @@ p.accomodations-numbers{
     margin: 0px;
     margin-bottom: 20px;
     font-size: large;
+    text-decoration: none;
 }
 
 #accomodations{
@@ -217,15 +265,17 @@ p.accomodations-numbers{
     flex-wrap: wrap;
     justify-content: space-between;
     flex-basis: 4%;
+    text-decoration: none;
 }
 
 .marseille-accomodations{
     background-color: #F2F2F2;
-    flex-basis: 64%;
-    margin: 20px 32px 20px 32px;
+    flex-basis: 60%;
+    margin: 20px 0px 20px 32px;
     border-radius: 20px;
     padding: 4px 1px 20px 9px;
     max-width: 805px;
+    text-decoration: none;
 }
 
 .box_card{
@@ -238,6 +288,7 @@ p.accomodations-numbers{
     min-height: 110px;
     margin: 1px 10px 29px 10px;
     padding: 2px;
+    text-decoration: none;
 }
 
 .accomodations-pictures{
@@ -254,12 +305,15 @@ p.accomodations-numbers{
     flex-direction: column;
     justify-content: space-around;
     margin: 1px 1px 1px 1px;
+    text-decoration: none;
+
 }
 .title-content{
     padding-top: 1px;
     margin-left: 10px;
     margin-top: -16px;
     color: #000;
+    text-decoration: none;
 }
 
 .price-content{
@@ -315,12 +369,13 @@ p2{
     border-radius: 20px;
     padding: 4px 25px 20px 25px;
     margin: 21px;
+    text-decoration: none;
 }
 .popular-accomodations{
     background-color: fff;
     display: flex;
     flex-basis: 34%;
-
+    text-decoration: none;
     border-radius: 20px;
 }
 
@@ -362,12 +417,14 @@ p2{
     flex-direction: column;
 }
 
-.popular-title-content {
+.popular-title-content{
     padding-bottom: 15px;
+
 }
 
-.popular-price-content {
+.popular-price-content{
     padding-bottom: 30px;
+
 }
 
 .popular-notation{
@@ -382,13 +439,14 @@ p2{
 
 /* MARSEILLE ACTIVITIES */
 
-#Marseille_activities{
+#marseille_activities{
     background-color: white;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin-bottom: 60px;
     max-width: 1350px;
+    text-decoration: none;
 }
 
 .activities_title{
@@ -494,14 +552,13 @@ img.photo_activite55,
 
 .footer{
     max-width: 1350px;
-    padding: 20px 300px 30px 30px;
+    padding: 20px 240px 30px 30px;
     background-color: #F2F2F2;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
-    margin-top: -40px;
-    margin: -10px -10px -10px -10px;
+    margin: 0;
 }
 
 .about_title{
@@ -531,8 +588,77 @@ img.photo_activite55,
 footer h4{
     font-weight: normal;
     margin: 1px 1px 1px 1px;
+    color: black;
+    border-top: none;
 }
 
 footer h2{
     font-size: large;
 }
+
+@media all and (max-width : 768px){
+
+    *{
+        text-decoration: none;
+        font-size: small;
+    }
+
+    h1{
+        margin: 40px 40px 10px 40px;
+    }
+
+    .filters{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px 95px 0px -60px;
+        height: 690px;
+    }
+
+    .filters-buton{
+        margin: 25px -50px 25px 25px;
+    }
+
+    .marseille-accomodations{
+        flex-basis: 0%;
+        margin: 0px 0px 30px 0px;
+        padding: 0px;
+        width: 520px;
+    }
+
+    #accomodations{
+        flex: none;
+    }
+
+    .accomodations-content{
+        padding: 0%;
+    }
+
+    .box_card{
+        margin: 1px 10px 29px 10px;
+    }
+
+    p2{
+        display: none;
+    }
+
+    #popular{
+        margin: 1px;
+        padding: 4px 2px 20px 2px;
+        display: flex;
+        flex-direction: initial;
+    }
+
+    h2{
+        display: none;
+    }
+
+    .accomodations_footer{
+        text-decoration: none;
+    }
+
+    .assistance{
+        margin-right: -190px;
+    }
+
+}
+
