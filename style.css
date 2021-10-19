@@ -50,6 +50,20 @@ header nav ul li a{
     text-decoration: none;
 }
 
+::placeholder {
+    padding: 0px 0px 0px 10px;
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: black;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: black;
+  }
+
 a activities{
     color: #000;
 }
@@ -700,9 +714,12 @@ footer h2{
 
 @media all and (max-width : 767.98px){
 
-
     img.reservia{
         object-fit: none;
+        width: 96px;
+        height: 100px;
+        margin-top: -30px;
+        margin-left: 0px;
     }
 
     header{
@@ -711,61 +728,161 @@ footer h2{
         padding-left: 5px;
       }
     
-      .containerheader{
+    .containerheader{
         display: grid;
         padding-top: 5px;
-      }
+    }
     
-      .headernav{
+    .headernav{
         margin-right: 0;
-      }
+    }
     
-      /* HEADER MENU */
+    /* HEADER MENU */
     
-      .register{
+    .register{
         position: absolute;
         top: 29px;
         right: 30px;
-      }
+    }
     
-      nav{
+    nav{
         display: flex;
         justify-content: space-around;
         align-items: center;
         width: 100%;
-        margin-top: 2px;
-      }
+        margin-top: 2px;       
+        margin-bottom: -80px;
+    }
     
-      nav ul{
-        border-bottom: 2px solid #f2f2f2;
-      }
+    nav ul{
+        /* border-bottom: 2px solid #f2f2f2; */
+        margin-top: -50px;
+        margin: -42px -100px 20px 23px;
+}
+    }
     
-      header ul li{
+    header ul li{
         margin-left: 0;
         padding: 10px 46px 5px 11px;
-      }
+    }
     
-      header ul li a:hover{
+    header ul li a:hover{
         border-bottom: 2px solid #0065fc;
         border-top: none;
         padding-bottom: 5px;
-      }
+    }
+
+    h1{
+        margin-left: 20px;
+    }
+
+    p.subtitle{
+        font-size: 94%;
+        margin-left: 20px;
+    }
+
+
+    .filters-titles{
+        margin-bottom: 300px;
+    }
+
+    .filters-titles p{
+        margin: 0px 46px 0px 0px;
+    
+    }
+
+    .filters{
+        margin: -60px -35px 0px -143px;
+    }
+
+    #filters-section {
+        margin: 20px 10px -80px 20px;
+    }
+
+    #search-section{
+        margin-left: -22px;
+    }
+
+    #familial{
+        margin-left: 20px;
+    }
+
+    .accomodations{
+        border-bottom: 2px solid #0065fc;
+        border-top: none;
+        padding-bottom: 10px;
+        width: 142px;
+        padding-left: 20px;
+        margin-left: -53px;
+    }
+
+    div.accomodations-numbers{
+        margin-left: 10px;
+        margin-top: -50px;
+    }
+
+    h2 {
+        margin: 10px 20px 10px 10px;
+    }
+
+    .activities{
+        border-bottom: 2px solid #d9d9d9;
+        border-top: none;
+        padding-bottom: 10px;
+        width: 160px;
+        padding-left: 50px;
+        margin-left: -53px;
+    }
+
+    .box_card {
+        max-width: 536px;
+        margin: 0px 0px 10px 0px;
+    }
 
     .marseille-accomodations{
         display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    padding: 4px 25px 20px 25px;
-    margin: 21px;
-    text-decoration: none;
+        flex-direction: column;
+        border-radius: 20px;
+        text-decoration: none;
+        background-color: #fff;
+        margin: 0;
+        margin-left: -6px;
+    }
+
+    .accomodations-content{
+        font-size: x-small;
+    }
+
+    .accomodations-pictures{
+        width: 330px;
+        margin-left: 9px;
+    }
+
+    .accomodations-pictures2{
+        width: 174px;
     }
 
     #popular{
-        width: 372px;
+        width: 306px;
+        margin: -4px;
+        border-radius: 0;
+    }
+
+    .box_card2{
+        margin: 10px -15px 10px -20px;
     }
     
+    .accomodations-pictures2{
+        width: 145px;
+
+    }
+
     .marseille_activities{
-        margin:  20px;
+        margin: 7px;
+    }
+
+    #Marseille_activities h1{
+        margin-left: 0px;
     }
 
     .photo_activite11
@@ -779,10 +896,39 @@ footer h2{
         height: 140px;
     }
 
+    img.photo_activite22 {
+        width: 350px;
+        height: 110px;
+    }
+
+    img.photo_activite33 {
+        object-fit: cover;
+        width: 350px;
+        height: 110px;
+    }
+
+    img.photo_activite55{
+        object-fit: cover;
+        width: 350px;
+        height: 110px;
+    }
+
+    img.photo_activite66 {
+        object-fit: cover;
+        width: 350px;
+        height: 110px;
+    }
+
+
     img{
         object-fit: cover;
-        width: 300px;
-        height: 140px;
+        width: 350px;
+        height: 110px;
+    }
+
+    #Marseille_activities h2 {
+        font-size: small;
+
     }
 
     .footer{
