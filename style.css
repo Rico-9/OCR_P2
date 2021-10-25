@@ -74,7 +74,7 @@ a activities{
     padding-top: 18px;
 }
 
-.activities{
+.activities-menu{
     color: black;
 }
 
@@ -141,8 +141,7 @@ accomodations activites a:hover{
     background-color: #0065FC;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    width: 40%;
-    height: 40px;
+    
     border: none;
     color: #fff;
     outline: none;
@@ -167,8 +166,8 @@ accomodations activites a:hover{
     width: 50px;
 }
 
-.fa-search::before{
-    display: none;
+.fa-search{
+    display: none !important;
 }
 
 p{
@@ -732,7 +731,7 @@ footer h2{
         width: 96px;
         height: 100px;
         margin-top: -55px;
-        margin-left: 0px;
+        margin-left: 20px;
     }
 
     header{
@@ -772,7 +771,7 @@ footer h2{
     nav ul{
         /* border-bottom: 2px solid #f2f2f2; */
         margin-top: -50px;
-        margin: -42px -100px 20px 23px;
+        margin: -42px -100px 20px -50px;
     }
     
     header ul li{
@@ -818,14 +817,27 @@ footer h2{
 
     #search-section{
         margin-left: -22px;
+        display: block;
     }
 
-    .search{
+    .search-text{
         display: none;
+    }
+
+    #search-section i{
+        display: block!important;
+    }
+
+    .location-logo{
+        width: 60px;
     }
 
     #familial p{
         margin-left: 20px;
+    }
+
+    .popular-accomodations{
+        margin-bottom: -40px;
     }
 
     .accomodations{
@@ -843,7 +855,7 @@ footer h2{
         margin: 10px 20px 10px 10px;
     }
 
-    .activities{
+    .activities-menu{
         border-bottom: 2px solid #d9d9d9;
         border-top: none;
         padding-bottom: 10px;
@@ -862,6 +874,10 @@ footer h2{
         background-color: #fff;
         margin: 0;
         margin-left: -6px;
+    }
+
+    .accomodations-header{
+        margin-bottom: 10px;
     }
 
     .accomodations-content{
@@ -893,7 +909,7 @@ footer h2{
     }
 
     .marseille_activities{
-        margin: 7px;
+        margin: -15px;
     }
 
     #Marseille_activities h1{
