@@ -102,7 +102,7 @@ accomodations activites a:hover{
     position: relative;
     height: 40px;
     background-color: #F2F2F2;
-    width: 54px;
+    width: 60px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
@@ -156,6 +156,19 @@ accomodations activites a:hover{
 .Marseille, France{
 
     color: #000;
+}
+
+.fa-search{
+    display: none;
+}
+
+#fas fa-search{
+    display: none;
+    width: 50px;
+}
+
+.fa-search::before{
+    display: none;
 }
 
 p{
@@ -281,7 +294,7 @@ div.accomodations-numbers{
 #accomodations{
     background-color: fff;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     justify-content: space-between;
     flex-basis: 4%;
     text-decoration: none;
@@ -718,7 +731,7 @@ footer h2{
         object-fit: none;
         width: 96px;
         height: 100px;
-        margin-top: -30px;
+        margin-top: -55px;
         margin-left: 0px;
     }
 
@@ -726,6 +739,8 @@ footer h2{
         margin: 0;
         width: 100%;
         padding-left: 5px;
+        margin-bottom: 60px;
+        margin-top: 40px;
       }
     
     .containerheader{
@@ -758,7 +773,6 @@ footer h2{
         /* border-bottom: 2px solid #f2f2f2; */
         margin-top: -50px;
         margin: -42px -100px 20px 23px;
-}
     }
     
     header ul li{
@@ -781,6 +795,9 @@ footer h2{
         margin-left: 20px;
     }
 
+    .fa-search{
+        width: 40px;
+    }
 
     .filters-titles{
         margin-bottom: 300px;
@@ -803,7 +820,11 @@ footer h2{
         margin-left: -22px;
     }
 
-    #familial{
+    .search{
+        display: none;
+    }
+
+    #familial p{
         margin-left: 20px;
     }
 
@@ -811,9 +832,6 @@ footer h2{
         border-bottom: 2px solid #0065fc;
         border-top: none;
         padding-bottom: 10px;
-        width: 142px;
-        padding-left: 20px;
-        margin-left: -53px;
     }
 
     div.accomodations-numbers{
@@ -829,12 +847,9 @@ footer h2{
         border-bottom: 2px solid #d9d9d9;
         border-top: none;
         padding-bottom: 10px;
-        width: 160px;
-        padding-left: 50px;
-        margin-left: -53px;
     }
 
-    .box_card {
+    .box_card{
         max-width: 536px;
         margin: 0px 0px 10px 0px;
     }
@@ -926,6 +941,11 @@ footer h2{
         height: 110px;
     }
 
+    #Marseille_activities h1 {
+        font-size: large;
+        margin: 10px 10px 10px 30px;
+    }
+
     #Marseille_activities h2 {
         font-size: small;
 
@@ -941,10 +961,12 @@ footer h2{
 
     .about{
         margin-left: 20px;
+        margin-bottom: 20px;
     }
 
     .accomodations_footer{
         margin-left: 20px;
+        margin-bottom: 20px;
     }
 
     .assistance{
