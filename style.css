@@ -35,12 +35,13 @@ nav{
 	float: right;
     transition: .25s ease-in-out;
     margin: 20px;
-    margin-top: -43px;
+    margin-top: -41px;
 }
 header nav ul li{
     padding: 20px;
 	display: inline-block;
     font-weight: bold;
+    padding-top: 50px;
 }  
 header nav ul li a{
 
@@ -71,7 +72,7 @@ a activities{
 .accomodations{
     border-top: 2px solid #0065FC;
     color: #0065FC;
-    padding-top: 18px;
+    padding-top: 30px;
 }
 
 .activities-menu{
@@ -785,6 +786,23 @@ footer h2{
         padding-bottom: 5px;
     }
 
+    .headerNav{
+        border-bottom: 2px solid #f2f2f2;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+    
+    .headerNavLink{
+        margin-left: 50px;
+    }
+
+    .line {
+        border-bottom: 2px solid red;
+        padding-bottom: 11px;
+        width: 270px;
+        margin-left: -200px;
+    }
+
     h1{
         margin-left: 20px;
     }
@@ -809,6 +827,10 @@ footer h2{
 
     .filters{
         margin: -60px -35px 0px -143px;
+    }
+
+    .filters p{
+        margin-right: -15px;
     }
 
     #filters-section {
@@ -844,6 +866,7 @@ footer h2{
         border-bottom: 2px solid #0065fc;
         border-top: none;
         padding-bottom: 10px;
+        display: none;
     }
 
     div.accomodations-numbers{
@@ -859,6 +882,7 @@ footer h2{
         border-bottom: 2px solid #d9d9d9;
         border-top: none;
         padding-bottom: 10px;
+        display: none;
     }
 
     .box_card{
