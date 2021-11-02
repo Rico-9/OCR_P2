@@ -1,3 +1,4 @@
+
 /* GENERAL */
 
 body
@@ -5,9 +6,10 @@ body
 	font-family: raleway,sans-serif;
 	font-size: 15px;
 }
+
 .wrapper{
     width: auto;
-    margin: 20 auto;
+    margin: 20px;
 }
 
 html,body{
@@ -190,10 +192,6 @@ p{
       color: #000;
   }
 
-  .placeholder{
-      border-color: none;
-  }
-
 h2{
     font-size: 20px;
     margin: 20px;
@@ -297,7 +295,7 @@ div.accomodations-numbers{
 }
 
 #accomodations{
-    background-color: fff;
+    background-color: #FFFFFF80;
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: space-between;
@@ -385,7 +383,7 @@ div.accomodations-numbers{
     color: grey;
 } 
 
-p2{
+h5{
     margin: 20px;
     font-weight: bold;
     text-decoration:none;
@@ -408,8 +406,9 @@ p2{
     margin: 21px;
     text-decoration: none;
 }
+
 .popular-accomodations{
-    background-color: fff;
+    background-color: #FFFFFF80;
     display: flex;
     flex-basis: 34%;
     text-decoration: none;
@@ -584,7 +583,6 @@ img.photo_activite55,
     font-size: medium;
 }
 
-
 /* FOOTER */
 
 .footer{
@@ -686,7 +684,7 @@ footer h2{
         margin: 1px 10px 29px 10px;
     }
 
-    p2{
+    h5{
         display: none;
     }
 
@@ -704,7 +702,7 @@ footer h2{
     }
 
     .popular-accomodations{
-        background-color: fff;
+        background-color: #FFFFFF80;
         display: flex;
         flex-basis: 10%;
         margin: auto;
@@ -868,7 +866,7 @@ footer h2{
     }
 
     .popular-accomodations{
-        margin-bottom: -40px;
+        margin-top: 20px;
     }
 
     .accomodations{
@@ -884,7 +882,7 @@ footer h2{
     }
 
     h2 {
-        margin: 10px 20px 10px 10px;
+        margin: 30px 20px 10px -15px;
     }
 
     .activities-menu{
@@ -930,10 +928,13 @@ footer h2{
         width: 306px;
         margin: -4px;
         border-radius: 0;
+
     }
 
     .box_card2{
         margin: 10px -15px 10px -20px;
+        padding-right: 10px;
+        width: 323px;
     }
     
     .accomodations-pictures2{
