@@ -76,6 +76,11 @@ a activities{
     color: #000;
 }
 
+article p:hover{
+    background-color: #0065FC;
+    color: #fff;
+}
+
 .accomodations{
     border-top: 2px solid #0065FC;
     color: #0065FC;
@@ -186,11 +191,11 @@ p{
   .fa-info:before{
     font-size: x-small;
     color: #0065FC;
-  }
+}
 
   .location-{
       color: #000;
-  }
+}
 
 h2{
     font-size: 20px;
@@ -641,13 +646,17 @@ footer h2{
     }
 
     h1{
-        margin: 40px 40px 10px 40px;
+        margin: 20px 40px 10px 40px;
     }
 
     .filters{
         display: flex;
         flex-wrap: wrap;
         margin: 0;
+    }
+
+    article p:hover{
+        background-color: #0065FC;
     }
 
     .filters-section{
@@ -659,12 +668,12 @@ footer h2{
     }
 
     .fa-info{
-        margin-left: 135px;
+        margin-left: 0px;
     }
 
     .marseille-accomodations{
         flex-basis: 70%;
-        margin: auto;
+        margin: 20px 20px 20px 114px;
         padding: 0px;
         width: 520px;
     }
@@ -673,11 +682,15 @@ footer h2{
         flex: none;
         border-top: 2px solid #0065FC;
         color: #0065FC;
-        padding-top: 16px;
+        padding-top: 20px;
     }
 
     .accomodations-content{
         padding: 0%;
+    }
+
+    .accomodations_content{
+        width: 250px;
     }
 
     .box_card{
@@ -716,6 +729,10 @@ footer h2{
         padding-bottom: 6px;
     }
 
+    .footer{
+        padding-bottom: 760px;
+    }
+
     .accomodations_footer{
         text-decoration: none;
     }
@@ -723,7 +740,6 @@ footer h2{
     .assistance{
         margin-right: -190px;
     }
-
 }
 
 /* PHONE */
@@ -845,6 +861,11 @@ footer h2{
         margin: 20px 10px -80px 20px;
     }
 
+    article p:hover{
+        background-color: #0065FC;
+        color: #fff;
+    }
+
     #search-section{
         margin-left: -22px;
         display: block;
@@ -882,7 +903,7 @@ footer h2{
         margin-top: -50px;
     }
 
-    h3 {
+    h2 {
         margin: 10px 20px 10px 15px;
     }
 
@@ -1004,6 +1025,7 @@ footer h2{
 
     .footer{
         margin: 20px -173px 20px -9px;
+        padding-bottom: 400px;
         width: 222px;
         margin-bottom: -22px;
         display: flex;
