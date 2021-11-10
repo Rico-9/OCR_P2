@@ -76,7 +76,7 @@ a activities{
     color: #000;
 }
 
-article p:hover{
+.filters-buton p:hover{
     background-color: #0065FC;
     color: #fff;
 }
