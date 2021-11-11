@@ -705,6 +705,11 @@ footer h2{
         margin: 8px;
     }
 
+    h6{
+        font-size: large;
+        margin: 20px 67px 20px 70px;
+    }
+
     #popular{
         margin: auto;
         margin-top: 40px;
@@ -745,6 +750,12 @@ footer h2{
 /* PHONE */
 
 @media all and (max-width : 767.98px){
+
+    html,body{
+        width:100%;
+        overflow-x:hidden;
+        margin-top: 0px;
+    }
 
     img.reservia{
         object-fit: none;
@@ -903,8 +914,9 @@ footer h2{
         margin-top: -50px;
     }
 
-    h2 {
-        margin: 10px 20px 10px 15px;
+    h6 {
+        margin: 15px -10px 10px -10px;
+        font-size: large;
     }
 
     .activities-menu{
@@ -940,17 +952,18 @@ footer h2{
     .accomodations-pictures{
         width: 330px;
         margin-left: 9px;
-    }
+        }
 
     .accomodations-pictures2{
         width: 174px;
+        box-shadow: 0 0 20px #0000002e;
     }
 
     #popular{
         width: 306px;
-        margin: -4px;
+        margin: -10px;
         border-radius: 0;
-
+        padding: 10px 34px 20px 40px;
     }
 
     .box_card2{
