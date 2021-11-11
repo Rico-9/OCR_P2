@@ -473,6 +473,12 @@ h5{
     max-height: 5px;
 }
 
+.popular-title{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
 #popular-title{
     font-size: medium;
     text-decoration: none;
