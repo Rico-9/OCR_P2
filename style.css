@@ -8,8 +8,8 @@ body
 }
 
 .wrapper{
-    width: auto;
-    margin: 20px;
+    margin: 0 auto;
+    max-width: 1400px;
 }
 
 html,body{
@@ -48,7 +48,7 @@ header nav ul li{
     padding: 20px;
 	display: inline-block;
     font-weight: bold;
-    padding-top: 50px;
+    padding-top: 42px;
 }  
 header nav ul li a{
 
@@ -334,7 +334,7 @@ div.accomodations-numbers{
 .accomodations-pictures{
     object-fit: cover;
     width: 236px;
-    height: 120px;
+    height: 105px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     margin: 2px;
@@ -756,6 +756,12 @@ footer h2{
 /* PHONE */
 
 @media all and (max-width : 767.98px){
+
+    .wrapper{
+        width: auto;
+        margin: 20px;
+        margin: 0 auto;
+    }
 
     html,body{
         width:100%;
